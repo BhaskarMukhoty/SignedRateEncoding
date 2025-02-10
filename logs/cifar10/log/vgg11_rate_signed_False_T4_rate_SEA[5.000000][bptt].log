@@ -1,0 +1,802 @@
+[2024-09-15 19:36:34,437][main_train.py][line:137][INFO] {'workers': 8, 'batch_size': 128, 'seed': 42, 'optim': 'sgd', 'suffix': '', 'dataset': 'cifar10', 'model': 'vgg11', 'time': 4, 'epochs': 200, 'lr': 0.1, 'device': '3', 'special': 'l2', 'beta': 0.0005, 'attack': 'sea', 'eps': 5.0, 'attack_mode': 'bptt', 'alpha': 2, 'steps': 4, 'encoding': 'rate', 'atk_encoding': 'rate', 'resume': False, 'INdatapath': '/home/gubin/bhaskar/datasets/Image100/', 'cache_dataset': False, 'distributed': False, 'TET': False, 'signed': False}
+[2024-09-15 19:36:34,437][main_train.py][line:147][INFO] start training!
+[2024-09-15 19:39:29,369][main_train.py][line:152][INFO] Epoch:[0/200]	 loss=774.09701	 acc=25.056
+[2024-09-15 19:39:36,128][main_train.py][line:155][INFO] Epoch:[0/200]	 Test acc=38.040
+
+[2024-09-15 19:39:38,681][main_train.py][line:167][INFO] Best Test acc=38.040
+[2024-09-15 19:42:31,039][main_train.py][line:152][INFO] Epoch:[1/200]	 loss=681.83401	 acc=34.668
+[2024-09-15 19:42:37,922][main_train.py][line:155][INFO] Epoch:[1/200]	 Test acc=46.940
+
+[2024-09-15 19:42:42,693][main_train.py][line:167][INFO] Best Test acc=46.940
+[2024-09-15 19:45:35,399][main_train.py][line:152][INFO] Epoch:[2/200]	 loss=639.37526	 acc=39.054
+[2024-09-15 19:45:42,297][main_train.py][line:155][INFO] Epoch:[2/200]	 Test acc=47.460
+
+[2024-09-15 19:45:47,155][main_train.py][line:167][INFO] Best Test acc=47.460
+[2024-09-15 19:48:40,124][main_train.py][line:152][INFO] Epoch:[3/200]	 loss=615.14225	 acc=41.784
+[2024-09-15 19:48:47,055][main_train.py][line:155][INFO] Epoch:[3/200]	 Test acc=49.550
+
+[2024-09-15 19:48:51,941][main_train.py][line:167][INFO] Best Test acc=49.550
+[2024-09-15 19:51:43,906][main_train.py][line:152][INFO] Epoch:[4/200]	 loss=591.88537	 acc=44.076
+[2024-09-15 19:51:50,754][main_train.py][line:155][INFO] Epoch:[4/200]	 Test acc=50.170
+
+[2024-09-15 19:51:55,524][main_train.py][line:167][INFO] Best Test acc=50.170
+[2024-09-15 19:54:48,272][main_train.py][line:152][INFO] Epoch:[5/200]	 loss=575.65261	 acc=45.668
+[2024-09-15 19:54:54,775][main_train.py][line:155][INFO] Epoch:[5/200]	 Test acc=53.880
+
+[2024-09-15 19:54:59,530][main_train.py][line:167][INFO] Best Test acc=53.880
+[2024-09-15 19:57:51,892][main_train.py][line:152][INFO] Epoch:[6/200]	 loss=559.29184	 acc=47.472
+[2024-09-15 19:57:57,954][main_train.py][line:155][INFO] Epoch:[6/200]	 Test acc=56.450
+
+[2024-09-15 19:58:02,724][main_train.py][line:167][INFO] Best Test acc=56.450
+[2024-09-15 20:00:55,002][main_train.py][line:152][INFO] Epoch:[7/200]	 loss=545.85861	 acc=48.546
+[2024-09-15 20:01:00,930][main_train.py][line:155][INFO] Epoch:[7/200]	 Test acc=56.050
+
+[2024-09-15 20:01:03,328][main_train.py][line:167][INFO] Best Test acc=56.450
+[2024-09-15 20:03:55,433][main_train.py][line:152][INFO] Epoch:[8/200]	 loss=536.77111	 acc=49.666
+[2024-09-15 20:04:02,324][main_train.py][line:155][INFO] Epoch:[8/200]	 Test acc=60.740
+
+[2024-09-15 20:04:07,027][main_train.py][line:167][INFO] Best Test acc=60.740
+[2024-09-15 20:06:59,358][main_train.py][line:152][INFO] Epoch:[9/200]	 loss=527.98460	 acc=50.384
+[2024-09-15 20:07:06,320][main_train.py][line:155][INFO] Epoch:[9/200]	 Test acc=58.740
+
+[2024-09-15 20:07:08,737][main_train.py][line:167][INFO] Best Test acc=60.740
+[2024-09-15 20:10:01,632][main_train.py][line:152][INFO] Epoch:[10/200]	 loss=520.89972	 acc=51.172
+[2024-09-15 20:10:08,487][main_train.py][line:155][INFO] Epoch:[10/200]	 Test acc=61.440
+
+[2024-09-15 20:10:13,212][main_train.py][line:167][INFO] Best Test acc=61.440
+[2024-09-15 20:13:04,811][main_train.py][line:152][INFO] Epoch:[11/200]	 loss=516.66219	 acc=51.418
+[2024-09-15 20:13:11,684][main_train.py][line:155][INFO] Epoch:[11/200]	 Test acc=52.220
+
+[2024-09-15 20:13:14,058][main_train.py][line:167][INFO] Best Test acc=61.440
+[2024-09-15 20:16:05,666][main_train.py][line:152][INFO] Epoch:[12/200]	 loss=513.40922	 acc=51.614
+[2024-09-15 20:16:12,525][main_train.py][line:155][INFO] Epoch:[12/200]	 Test acc=59.660
+
+[2024-09-15 20:16:14,866][main_train.py][line:167][INFO] Best Test acc=61.440
+[2024-09-15 20:19:05,013][main_train.py][line:152][INFO] Epoch:[13/200]	 loss=504.72210	 acc=53.112
+[2024-09-15 20:19:11,838][main_train.py][line:155][INFO] Epoch:[13/200]	 Test acc=62.700
+
+[2024-09-15 20:19:16,616][main_train.py][line:167][INFO] Best Test acc=62.700
+[2024-09-15 20:22:06,447][main_train.py][line:152][INFO] Epoch:[14/200]	 loss=504.74768	 acc=52.926
+[2024-09-15 20:22:13,309][main_train.py][line:155][INFO] Epoch:[14/200]	 Test acc=62.040
+
+[2024-09-15 20:22:15,743][main_train.py][line:167][INFO] Best Test acc=62.700
+[2024-09-15 20:25:08,112][main_train.py][line:152][INFO] Epoch:[15/200]	 loss=499.22404	 acc=53.530
+[2024-09-15 20:25:14,161][main_train.py][line:155][INFO] Epoch:[15/200]	 Test acc=61.330
+
+[2024-09-15 20:25:16,535][main_train.py][line:167][INFO] Best Test acc=62.700
+[2024-09-15 20:28:08,651][main_train.py][line:152][INFO] Epoch:[16/200]	 loss=494.97914	 acc=53.746
+[2024-09-15 20:28:13,366][main_train.py][line:155][INFO] Epoch:[16/200]	 Test acc=64.460
+
+[2024-09-15 20:28:18,482][main_train.py][line:167][INFO] Best Test acc=64.460
+[2024-09-15 20:31:10,404][main_train.py][line:152][INFO] Epoch:[17/200]	 loss=492.97659	 acc=54.132
+[2024-09-15 20:31:14,808][main_train.py][line:155][INFO] Epoch:[17/200]	 Test acc=53.420
+
+[2024-09-15 20:31:17,203][main_train.py][line:167][INFO] Best Test acc=64.460
+[2024-09-15 20:34:09,502][main_train.py][line:152][INFO] Epoch:[18/200]	 loss=492.47448	 acc=53.752
+[2024-09-15 20:34:16,160][main_train.py][line:155][INFO] Epoch:[18/200]	 Test acc=64.080
+
+[2024-09-15 20:34:18,621][main_train.py][line:167][INFO] Best Test acc=64.460
+[2024-09-15 20:37:11,016][main_train.py][line:152][INFO] Epoch:[19/200]	 loss=488.27096	 acc=54.338
+[2024-09-15 20:37:17,917][main_train.py][line:155][INFO] Epoch:[19/200]	 Test acc=63.790
+
+[2024-09-15 20:37:20,297][main_train.py][line:167][INFO] Best Test acc=64.460
+[2024-09-15 20:40:12,173][main_train.py][line:152][INFO] Epoch:[20/200]	 loss=486.78360	 acc=54.630
+[2024-09-15 20:40:19,013][main_train.py][line:155][INFO] Epoch:[20/200]	 Test acc=60.980
+
+[2024-09-15 20:40:21,409][main_train.py][line:167][INFO] Best Test acc=64.460
+[2024-09-15 20:43:11,652][main_train.py][line:152][INFO] Epoch:[21/200]	 loss=485.22044	 acc=54.528
+[2024-09-15 20:43:18,542][main_train.py][line:155][INFO] Epoch:[21/200]	 Test acc=62.890
+
+[2024-09-15 20:43:20,946][main_train.py][line:167][INFO] Best Test acc=64.460
+[2024-09-15 20:46:12,878][main_train.py][line:152][INFO] Epoch:[22/200]	 loss=481.41282	 acc=54.858
+[2024-09-15 20:46:19,405][main_train.py][line:155][INFO] Epoch:[22/200]	 Test acc=65.680
+
+[2024-09-15 20:46:24,219][main_train.py][line:167][INFO] Best Test acc=65.680
+[2024-09-15 20:49:16,753][main_train.py][line:152][INFO] Epoch:[23/200]	 loss=480.47502	 acc=55.180
+[2024-09-15 20:49:23,637][main_train.py][line:155][INFO] Epoch:[23/200]	 Test acc=62.740
+
+[2024-09-15 20:49:25,977][main_train.py][line:167][INFO] Best Test acc=65.680
+[2024-09-15 20:52:17,123][main_train.py][line:152][INFO] Epoch:[24/200]	 loss=480.10245	 acc=54.996
+[2024-09-15 20:52:23,999][main_train.py][line:155][INFO] Epoch:[24/200]	 Test acc=66.120
+
+[2024-09-15 20:52:28,774][main_train.py][line:167][INFO] Best Test acc=66.120
+[2024-09-15 20:55:19,403][main_train.py][line:152][INFO] Epoch:[25/200]	 loss=479.56424	 acc=55.278
+[2024-09-15 20:55:26,228][main_train.py][line:155][INFO] Epoch:[25/200]	 Test acc=61.570
+
+[2024-09-15 20:55:28,639][main_train.py][line:167][INFO] Best Test acc=66.120
+[2024-09-15 20:58:21,496][main_train.py][line:152][INFO] Epoch:[26/200]	 loss=476.83414	 acc=55.520
+[2024-09-15 20:58:26,671][main_train.py][line:155][INFO] Epoch:[26/200]	 Test acc=65.690
+
+[2024-09-15 20:58:29,056][main_train.py][line:167][INFO] Best Test acc=66.120
+[2024-09-15 21:01:20,819][main_train.py][line:152][INFO] Epoch:[27/200]	 loss=472.72856	 acc=56.102
+[2024-09-15 21:01:26,815][main_train.py][line:155][INFO] Epoch:[27/200]	 Test acc=63.780
+
+[2024-09-15 21:01:29,347][main_train.py][line:167][INFO] Best Test acc=66.120
+[2024-09-15 21:04:21,274][main_train.py][line:152][INFO] Epoch:[28/200]	 loss=473.15692	 acc=55.948
+[2024-09-15 21:04:28,300][main_train.py][line:155][INFO] Epoch:[28/200]	 Test acc=63.130
+
+[2024-09-15 21:04:30,726][main_train.py][line:167][INFO] Best Test acc=66.120
+[2024-09-15 21:07:22,735][main_train.py][line:152][INFO] Epoch:[29/200]	 loss=474.88379	 acc=56.032
+[2024-09-15 21:07:29,664][main_train.py][line:155][INFO] Epoch:[29/200]	 Test acc=61.560
+
+[2024-09-15 21:07:32,059][main_train.py][line:167][INFO] Best Test acc=66.120
+[2024-09-15 21:10:21,898][main_train.py][line:152][INFO] Epoch:[30/200]	 loss=470.03358	 acc=56.392
+[2024-09-15 21:10:28,788][main_train.py][line:155][INFO] Epoch:[30/200]	 Test acc=62.800
+
+[2024-09-15 21:10:31,227][main_train.py][line:167][INFO] Best Test acc=66.120
+[2024-09-15 21:13:23,458][main_train.py][line:152][INFO] Epoch:[31/200]	 loss=471.13605	 acc=55.900
+[2024-09-15 21:13:29,404][main_train.py][line:155][INFO] Epoch:[31/200]	 Test acc=61.980
+
+[2024-09-15 21:13:31,750][main_train.py][line:167][INFO] Best Test acc=66.120
+[2024-09-15 21:16:24,379][main_train.py][line:152][INFO] Epoch:[32/200]	 loss=468.67303	 acc=56.390
+[2024-09-15 21:16:29,176][main_train.py][line:155][INFO] Epoch:[32/200]	 Test acc=64.860
+
+[2024-09-15 21:16:31,607][main_train.py][line:167][INFO] Best Test acc=66.120
+[2024-09-15 21:19:23,333][main_train.py][line:152][INFO] Epoch:[33/200]	 loss=465.80557	 acc=56.538
+[2024-09-15 21:19:30,190][main_train.py][line:155][INFO] Epoch:[33/200]	 Test acc=66.020
+
+[2024-09-15 21:19:32,565][main_train.py][line:167][INFO] Best Test acc=66.120
+[2024-09-15 21:22:24,675][main_train.py][line:152][INFO] Epoch:[34/200]	 loss=464.90841	 acc=56.572
+[2024-09-15 21:22:31,609][main_train.py][line:155][INFO] Epoch:[34/200]	 Test acc=66.390
+
+[2024-09-15 21:22:36,339][main_train.py][line:167][INFO] Best Test acc=66.390
+[2024-09-15 21:25:28,787][main_train.py][line:152][INFO] Epoch:[35/200]	 loss=464.57552	 acc=56.368
+[2024-09-15 21:25:35,644][main_train.py][line:155][INFO] Epoch:[35/200]	 Test acc=64.940
+
+[2024-09-15 21:25:38,064][main_train.py][line:167][INFO] Best Test acc=66.390
+[2024-09-15 21:28:28,980][main_train.py][line:152][INFO] Epoch:[36/200]	 loss=464.03095	 acc=56.660
+[2024-09-15 21:28:35,824][main_train.py][line:155][INFO] Epoch:[36/200]	 Test acc=65.660
+
+[2024-09-15 21:28:38,153][main_train.py][line:167][INFO] Best Test acc=66.390
+[2024-09-15 21:31:28,728][main_train.py][line:152][INFO] Epoch:[37/200]	 loss=463.35819	 acc=56.862
+[2024-09-15 21:31:35,584][main_train.py][line:155][INFO] Epoch:[37/200]	 Test acc=64.100
+
+[2024-09-15 21:31:38,057][main_train.py][line:167][INFO] Best Test acc=66.390
+[2024-09-15 21:34:29,960][main_train.py][line:152][INFO] Epoch:[38/200]	 loss=465.25864	 acc=56.826
+[2024-09-15 21:34:35,804][main_train.py][line:155][INFO] Epoch:[38/200]	 Test acc=65.690
+
+[2024-09-15 21:34:38,153][main_train.py][line:167][INFO] Best Test acc=66.390
+[2024-09-15 21:37:30,531][main_train.py][line:152][INFO] Epoch:[39/200]	 loss=457.79084	 acc=57.440
+[2024-09-15 21:37:35,117][main_train.py][line:155][INFO] Epoch:[39/200]	 Test acc=65.920
+
+[2024-09-15 21:37:37,546][main_train.py][line:167][INFO] Best Test acc=66.390
+[2024-09-15 21:40:29,719][main_train.py][line:152][INFO] Epoch:[40/200]	 loss=461.09180	 acc=56.812
+[2024-09-15 21:40:36,685][main_train.py][line:155][INFO] Epoch:[40/200]	 Test acc=66.640
+
+[2024-09-15 21:40:41,361][main_train.py][line:167][INFO] Best Test acc=66.640
+[2024-09-15 21:43:32,087][main_train.py][line:152][INFO] Epoch:[41/200]	 loss=458.98034	 acc=57.328
+[2024-09-15 21:43:38,621][main_train.py][line:155][INFO] Epoch:[41/200]	 Test acc=66.170
+
+[2024-09-15 21:43:41,131][main_train.py][line:167][INFO] Best Test acc=66.640
+[2024-09-15 21:46:32,800][main_train.py][line:152][INFO] Epoch:[42/200]	 loss=458.92891	 acc=57.178
+[2024-09-15 21:46:39,666][main_train.py][line:155][INFO] Epoch:[42/200]	 Test acc=65.870
+
+[2024-09-15 21:46:42,108][main_train.py][line:167][INFO] Best Test acc=66.640
+[2024-09-15 21:49:32,253][main_train.py][line:152][INFO] Epoch:[43/200]	 loss=457.94452	 acc=57.256
+[2024-09-15 21:49:39,138][main_train.py][line:155][INFO] Epoch:[43/200]	 Test acc=65.270
+
+[2024-09-15 21:49:41,541][main_train.py][line:167][INFO] Best Test acc=66.640
+[2024-09-15 21:52:29,267][main_train.py][line:152][INFO] Epoch:[44/200]	 loss=454.10770	 acc=57.914
+[2024-09-15 21:52:36,054][main_train.py][line:155][INFO] Epoch:[44/200]	 Test acc=67.000
+
+[2024-09-15 21:52:40,846][main_train.py][line:167][INFO] Best Test acc=67.000
+[2024-09-15 21:55:27,757][main_train.py][line:152][INFO] Epoch:[45/200]	 loss=454.28886	 acc=57.862
+[2024-09-15 21:55:34,575][main_train.py][line:155][INFO] Epoch:[45/200]	 Test acc=66.710
+
+[2024-09-15 21:55:36,996][main_train.py][line:167][INFO] Best Test acc=67.000
+[2024-09-15 21:58:26,144][main_train.py][line:152][INFO] Epoch:[46/200]	 loss=452.94102	 acc=57.816
+[2024-09-15 21:58:31,873][main_train.py][line:155][INFO] Epoch:[46/200]	 Test acc=68.240
+
+[2024-09-15 21:58:36,630][main_train.py][line:167][INFO] Best Test acc=68.240
+[2024-09-15 22:01:25,965][main_train.py][line:152][INFO] Epoch:[47/200]	 loss=451.83770	 acc=58.026
+[2024-09-15 22:01:32,215][main_train.py][line:155][INFO] Epoch:[47/200]	 Test acc=60.100
+
+[2024-09-15 22:01:34,587][main_train.py][line:167][INFO] Best Test acc=68.240
+[2024-09-15 22:04:24,324][main_train.py][line:152][INFO] Epoch:[48/200]	 loss=450.46791	 acc=57.894
+[2024-09-15 22:04:29,001][main_train.py][line:155][INFO] Epoch:[48/200]	 Test acc=66.660
+
+[2024-09-15 22:04:31,487][main_train.py][line:167][INFO] Best Test acc=68.240
+[2024-09-15 22:07:20,555][main_train.py][line:152][INFO] Epoch:[49/200]	 loss=448.21890	 acc=58.272
+[2024-09-15 22:07:27,221][main_train.py][line:155][INFO] Epoch:[49/200]	 Test acc=66.590
+
+[2024-09-15 22:07:29,606][main_train.py][line:167][INFO] Best Test acc=68.240
+[2024-09-15 22:10:20,030][main_train.py][line:152][INFO] Epoch:[50/200]	 loss=451.11936	 acc=57.926
+[2024-09-15 22:10:26,893][main_train.py][line:155][INFO] Epoch:[50/200]	 Test acc=64.300
+
+[2024-09-15 22:10:29,310][main_train.py][line:167][INFO] Best Test acc=68.240
+[2024-09-15 22:13:19,903][main_train.py][line:152][INFO] Epoch:[51/200]	 loss=447.58173	 acc=58.320
+[2024-09-15 22:13:26,798][main_train.py][line:155][INFO] Epoch:[51/200]	 Test acc=67.370
+
+[2024-09-15 22:13:29,188][main_train.py][line:167][INFO] Best Test acc=68.240
+[2024-09-15 22:16:16,978][main_train.py][line:152][INFO] Epoch:[52/200]	 loss=447.60411	 acc=58.746
+[2024-09-15 22:16:23,801][main_train.py][line:155][INFO] Epoch:[52/200]	 Test acc=69.860
+
+[2024-09-15 22:16:29,572][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 22:19:19,554][main_train.py][line:152][INFO] Epoch:[53/200]	 loss=446.77807	 acc=58.332
+[2024-09-15 22:19:26,468][main_train.py][line:155][INFO] Epoch:[53/200]	 Test acc=66.620
+
+[2024-09-15 22:19:29,504][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 22:22:18,006][main_train.py][line:152][INFO] Epoch:[54/200]	 loss=444.28674	 acc=58.820
+[2024-09-15 22:22:24,915][main_train.py][line:155][INFO] Epoch:[54/200]	 Test acc=65.410
+
+[2024-09-15 22:22:28,472][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 22:25:15,050][main_train.py][line:152][INFO] Epoch:[55/200]	 loss=443.71101	 acc=58.734
+[2024-09-15 22:25:22,044][main_train.py][line:155][INFO] Epoch:[55/200]	 Test acc=67.450
+
+[2024-09-15 22:25:24,438][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 22:28:13,274][main_train.py][line:152][INFO] Epoch:[56/200]	 loss=446.14920	 acc=58.790
+[2024-09-15 22:28:19,867][main_train.py][line:155][INFO] Epoch:[56/200]	 Test acc=67.200
+
+[2024-09-15 22:28:22,241][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 22:31:11,705][main_train.py][line:152][INFO] Epoch:[57/200]	 loss=443.42840	 acc=58.714
+[2024-09-15 22:31:16,156][main_train.py][line:155][INFO] Epoch:[57/200]	 Test acc=68.540
+
+[2024-09-15 22:31:18,529][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 22:34:08,913][main_train.py][line:152][INFO] Epoch:[58/200]	 loss=441.57904	 acc=59.180
+[2024-09-15 22:34:14,883][main_train.py][line:155][INFO] Epoch:[58/200]	 Test acc=67.490
+
+[2024-09-15 22:34:17,275][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 22:37:07,683][main_train.py][line:152][INFO] Epoch:[59/200]	 loss=440.29401	 acc=58.790
+[2024-09-15 22:37:14,560][main_train.py][line:155][INFO] Epoch:[59/200]	 Test acc=69.090
+
+[2024-09-15 22:37:16,909][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 22:40:08,203][main_train.py][line:152][INFO] Epoch:[60/200]	 loss=441.46709	 acc=58.888
+[2024-09-15 22:40:15,095][main_train.py][line:155][INFO] Epoch:[60/200]	 Test acc=67.440
+
+[2024-09-15 22:40:17,946][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 22:43:06,792][main_train.py][line:152][INFO] Epoch:[61/200]	 loss=438.85160	 acc=59.298
+[2024-09-15 22:43:13,674][main_train.py][line:155][INFO] Epoch:[61/200]	 Test acc=67.550
+
+[2024-09-15 22:43:17,168][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 22:46:04,532][main_train.py][line:152][INFO] Epoch:[62/200]	 loss=436.54835	 acc=59.582
+[2024-09-15 22:46:11,368][main_train.py][line:155][INFO] Epoch:[62/200]	 Test acc=68.910
+
+[2024-09-15 22:46:13,646][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 22:49:02,539][main_train.py][line:152][INFO] Epoch:[63/200]	 loss=436.60820	 acc=59.488
+[2024-09-15 22:49:09,332][main_train.py][line:155][INFO] Epoch:[63/200]	 Test acc=65.940
+
+[2024-09-15 22:49:11,676][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 22:52:02,552][main_train.py][line:152][INFO] Epoch:[64/200]	 loss=435.46409	 acc=59.360
+[2024-09-15 22:52:07,678][main_train.py][line:155][INFO] Epoch:[64/200]	 Test acc=64.570
+
+[2024-09-15 22:52:10,008][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 22:54:58,932][main_train.py][line:152][INFO] Epoch:[65/200]	 loss=434.04730	 acc=59.504
+[2024-09-15 22:55:05,120][main_train.py][line:155][INFO] Epoch:[65/200]	 Test acc=66.090
+
+[2024-09-15 22:55:07,475][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 22:57:58,163][main_train.py][line:152][INFO] Epoch:[66/200]	 loss=432.00930	 acc=59.900
+[2024-09-15 22:58:05,046][main_train.py][line:155][INFO] Epoch:[66/200]	 Test acc=68.590
+
+[2024-09-15 22:58:07,671][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 23:00:58,510][main_train.py][line:152][INFO] Epoch:[67/200]	 loss=431.03514	 acc=59.916
+[2024-09-15 23:01:05,417][main_train.py][line:155][INFO] Epoch:[67/200]	 Test acc=67.590
+
+[2024-09-15 23:01:07,813][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 23:03:58,360][main_train.py][line:152][INFO] Epoch:[68/200]	 loss=431.57153	 acc=60.136
+[2024-09-15 23:04:05,356][main_train.py][line:155][INFO] Epoch:[68/200]	 Test acc=69.380
+
+[2024-09-15 23:04:07,789][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 23:06:56,270][main_train.py][line:152][INFO] Epoch:[69/200]	 loss=427.71743	 acc=60.192
+[2024-09-15 23:07:03,151][main_train.py][line:155][INFO] Epoch:[69/200]	 Test acc=66.620
+
+[2024-09-15 23:07:05,572][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 23:09:53,449][main_train.py][line:152][INFO] Epoch:[70/200]	 loss=429.51181	 acc=60.208
+[2024-09-15 23:10:00,275][main_train.py][line:155][INFO] Epoch:[70/200]	 Test acc=67.520
+
+[2024-09-15 23:10:02,837][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 23:12:52,458][main_train.py][line:152][INFO] Epoch:[71/200]	 loss=427.88513	 acc=60.318
+[2024-09-15 23:12:59,304][main_train.py][line:155][INFO] Epoch:[71/200]	 Test acc=61.450
+
+[2024-09-15 23:13:01,711][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 23:15:51,859][main_train.py][line:152][INFO] Epoch:[72/200]	 loss=427.31021	 acc=60.156
+[2024-09-15 23:15:56,532][main_train.py][line:155][INFO] Epoch:[72/200]	 Test acc=69.140
+
+[2024-09-15 23:15:58,923][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 23:18:49,357][main_train.py][line:152][INFO] Epoch:[73/200]	 loss=424.68087	 acc=60.660
+[2024-09-15 23:18:54,425][main_train.py][line:155][INFO] Epoch:[73/200]	 Test acc=67.820
+
+[2024-09-15 23:18:57,804][main_train.py][line:167][INFO] Best Test acc=69.860
+[2024-09-15 23:21:48,646][main_train.py][line:152][INFO] Epoch:[74/200]	 loss=424.58725	 acc=60.520
+[2024-09-15 23:21:54,102][main_train.py][line:155][INFO] Epoch:[74/200]	 Test acc=70.770
+
+[2024-09-15 23:21:58,708][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-15 23:24:47,983][main_train.py][line:152][INFO] Epoch:[75/200]	 loss=421.73440	 acc=60.956
+[2024-09-15 23:24:53,068][main_train.py][line:155][INFO] Epoch:[75/200]	 Test acc=66.780
+
+[2024-09-15 23:24:55,991][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-15 23:27:46,605][main_train.py][line:152][INFO] Epoch:[76/200]	 loss=421.78538	 acc=60.564
+[2024-09-15 23:27:52,449][main_train.py][line:155][INFO] Epoch:[76/200]	 Test acc=68.450
+
+[2024-09-15 23:27:54,874][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-15 23:30:45,185][main_train.py][line:152][INFO] Epoch:[77/200]	 loss=419.95113	 acc=61.044
+[2024-09-15 23:30:51,983][main_train.py][line:155][INFO] Epoch:[77/200]	 Test acc=68.020
+
+[2024-09-15 23:30:54,391][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-15 23:33:45,226][main_train.py][line:152][INFO] Epoch:[78/200]	 loss=416.65829	 acc=61.236
+[2024-09-15 23:33:52,128][main_train.py][line:155][INFO] Epoch:[78/200]	 Test acc=70.390
+
+[2024-09-15 23:33:54,499][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-15 23:36:45,586][main_train.py][line:152][INFO] Epoch:[79/200]	 loss=417.36767	 acc=60.970
+[2024-09-15 23:36:52,457][main_train.py][line:155][INFO] Epoch:[79/200]	 Test acc=67.260
+
+[2024-09-15 23:36:54,836][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-15 23:39:44,667][main_train.py][line:152][INFO] Epoch:[80/200]	 loss=415.21849	 acc=61.124
+[2024-09-15 23:39:51,583][main_train.py][line:155][INFO] Epoch:[80/200]	 Test acc=68.660
+
+[2024-09-15 23:39:53,974][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-15 23:42:40,855][main_train.py][line:152][INFO] Epoch:[81/200]	 loss=412.08129	 acc=61.758
+[2024-09-15 23:42:47,757][main_train.py][line:155][INFO] Epoch:[81/200]	 Test acc=64.900
+
+[2024-09-15 23:42:50,199][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-15 23:45:39,957][main_train.py][line:152][INFO] Epoch:[82/200]	 loss=409.55005	 acc=61.904
+[2024-09-15 23:45:46,748][main_train.py][line:155][INFO] Epoch:[82/200]	 Test acc=67.770
+
+[2024-09-15 23:45:49,138][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-15 23:48:39,814][main_train.py][line:152][INFO] Epoch:[83/200]	 loss=411.44580	 acc=61.712
+[2024-09-15 23:48:45,167][main_train.py][line:155][INFO] Epoch:[83/200]	 Test acc=68.530
+
+[2024-09-15 23:48:47,564][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-15 23:51:37,887][main_train.py][line:152][INFO] Epoch:[84/200]	 loss=411.16440	 acc=61.756
+[2024-09-15 23:51:42,678][main_train.py][line:155][INFO] Epoch:[84/200]	 Test acc=69.180
+
+[2024-09-15 23:51:45,069][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-15 23:54:34,921][main_train.py][line:152][INFO] Epoch:[85/200]	 loss=411.80125	 acc=61.566
+[2024-09-15 23:54:41,806][main_train.py][line:155][INFO] Epoch:[85/200]	 Test acc=69.820
+
+[2024-09-15 23:54:44,189][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-15 23:57:36,178][main_train.py][line:152][INFO] Epoch:[86/200]	 loss=405.69512	 acc=62.162
+[2024-09-15 23:57:43,037][main_train.py][line:155][INFO] Epoch:[86/200]	 Test acc=69.840
+
+[2024-09-15 23:57:45,406][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-16 00:00:07,236][main_train.py][line:152][INFO] Epoch:[87/200]	 loss=401.19815	 acc=62.624
+[2024-09-16 00:00:11,024][main_train.py][line:155][INFO] Epoch:[87/200]	 Test acc=68.820
+
+[2024-09-16 00:00:13,547][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-16 00:01:37,394][main_train.py][line:152][INFO] Epoch:[88/200]	 loss=404.67850	 acc=62.344
+[2024-09-16 00:01:41,142][main_train.py][line:155][INFO] Epoch:[88/200]	 Test acc=68.850
+
+[2024-09-16 00:01:43,563][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-16 00:03:07,378][main_train.py][line:152][INFO] Epoch:[89/200]	 loss=401.84241	 acc=62.486
+[2024-09-16 00:03:11,199][main_train.py][line:155][INFO] Epoch:[89/200]	 Test acc=68.590
+
+[2024-09-16 00:03:13,897][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-16 00:04:38,061][main_train.py][line:152][INFO] Epoch:[90/200]	 loss=402.51634	 acc=62.646
+[2024-09-16 00:04:41,871][main_train.py][line:155][INFO] Epoch:[90/200]	 Test acc=69.610
+
+[2024-09-16 00:04:44,548][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-16 00:06:08,452][main_train.py][line:152][INFO] Epoch:[91/200]	 loss=401.42905	 acc=62.578
+[2024-09-16 00:06:12,266][main_train.py][line:155][INFO] Epoch:[91/200]	 Test acc=68.740
+
+[2024-09-16 00:06:14,780][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-16 00:07:38,663][main_train.py][line:152][INFO] Epoch:[92/200]	 loss=396.31162	 acc=63.080
+[2024-09-16 00:07:42,561][main_train.py][line:155][INFO] Epoch:[92/200]	 Test acc=69.150
+
+[2024-09-16 00:07:46,301][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-16 00:09:10,444][main_train.py][line:152][INFO] Epoch:[93/200]	 loss=396.67838	 acc=62.970
+[2024-09-16 00:09:14,260][main_train.py][line:155][INFO] Epoch:[93/200]	 Test acc=67.790
+
+[2024-09-16 00:09:17,306][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-16 00:10:41,300][main_train.py][line:152][INFO] Epoch:[94/200]	 loss=395.43154	 acc=63.068
+[2024-09-16 00:10:45,107][main_train.py][line:155][INFO] Epoch:[94/200]	 Test acc=68.850
+
+[2024-09-16 00:10:48,120][main_train.py][line:167][INFO] Best Test acc=70.770
+[2024-09-16 00:12:12,274][main_train.py][line:152][INFO] Epoch:[95/200]	 loss=393.11651	 acc=63.538
+[2024-09-16 00:12:16,087][main_train.py][line:155][INFO] Epoch:[95/200]	 Test acc=71.140
+
+[2024-09-16 00:12:20,419][main_train.py][line:167][INFO] Best Test acc=71.140
+[2024-09-16 00:13:44,188][main_train.py][line:152][INFO] Epoch:[96/200]	 loss=391.28488	 acc=63.494
+[2024-09-16 00:13:47,996][main_train.py][line:155][INFO] Epoch:[96/200]	 Test acc=69.830
+
+[2024-09-16 00:13:50,272][main_train.py][line:167][INFO] Best Test acc=71.140
+[2024-09-16 00:15:14,450][main_train.py][line:152][INFO] Epoch:[97/200]	 loss=388.53015	 acc=63.594
+[2024-09-16 00:15:18,249][main_train.py][line:155][INFO] Epoch:[97/200]	 Test acc=69.150
+
+[2024-09-16 00:15:20,532][main_train.py][line:167][INFO] Best Test acc=71.140
+[2024-09-16 00:16:44,465][main_train.py][line:152][INFO] Epoch:[98/200]	 loss=384.60674	 acc=64.038
+[2024-09-16 00:16:48,297][main_train.py][line:155][INFO] Epoch:[98/200]	 Test acc=66.710
+
+[2024-09-16 00:16:50,668][main_train.py][line:167][INFO] Best Test acc=71.140
+[2024-09-16 00:18:14,802][main_train.py][line:152][INFO] Epoch:[99/200]	 loss=385.96928	 acc=63.876
+[2024-09-16 00:18:18,658][main_train.py][line:155][INFO] Epoch:[99/200]	 Test acc=70.110
+
+[2024-09-16 00:18:21,049][main_train.py][line:167][INFO] Best Test acc=71.140
+[2024-09-16 00:19:45,113][main_train.py][line:152][INFO] Epoch:[100/200]	 loss=380.59589	 acc=64.598
+[2024-09-16 00:19:48,889][main_train.py][line:155][INFO] Epoch:[100/200]	 Test acc=68.390
+
+[2024-09-16 00:19:51,256][main_train.py][line:167][INFO] Best Test acc=71.140
+[2024-09-16 00:21:15,304][main_train.py][line:152][INFO] Epoch:[101/200]	 loss=382.13336	 acc=64.540
+[2024-09-16 00:21:19,122][main_train.py][line:155][INFO] Epoch:[101/200]	 Test acc=69.900
+
+[2024-09-16 00:21:21,519][main_train.py][line:167][INFO] Best Test acc=71.140
+[2024-09-16 00:22:45,656][main_train.py][line:152][INFO] Epoch:[102/200]	 loss=381.58301	 acc=64.506
+[2024-09-16 00:22:49,464][main_train.py][line:155][INFO] Epoch:[102/200]	 Test acc=70.660
+
+[2024-09-16 00:22:51,818][main_train.py][line:167][INFO] Best Test acc=71.140
+[2024-09-16 00:24:15,885][main_train.py][line:152][INFO] Epoch:[103/200]	 loss=378.16238	 acc=64.860
+[2024-09-16 00:24:19,705][main_train.py][line:155][INFO] Epoch:[103/200]	 Test acc=71.800
+
+[2024-09-16 00:24:24,316][main_train.py][line:167][INFO] Best Test acc=71.800
+[2024-09-16 00:25:48,246][main_train.py][line:152][INFO] Epoch:[104/200]	 loss=376.04101	 acc=64.836
+[2024-09-16 00:25:52,059][main_train.py][line:155][INFO] Epoch:[104/200]	 Test acc=71.600
+
+[2024-09-16 00:25:54,421][main_train.py][line:167][INFO] Best Test acc=71.800
+[2024-09-16 00:27:18,417][main_train.py][line:152][INFO] Epoch:[105/200]	 loss=370.68421	 acc=65.354
+[2024-09-16 00:27:22,212][main_train.py][line:155][INFO] Epoch:[105/200]	 Test acc=71.170
+
+[2024-09-16 00:27:24,570][main_train.py][line:167][INFO] Best Test acc=71.800
+[2024-09-16 00:28:48,734][main_train.py][line:152][INFO] Epoch:[106/200]	 loss=370.93526	 acc=65.276
+[2024-09-16 00:28:52,591][main_train.py][line:155][INFO] Epoch:[106/200]	 Test acc=70.500
+
+[2024-09-16 00:28:54,947][main_train.py][line:167][INFO] Best Test acc=71.800
+[2024-09-16 00:30:18,978][main_train.py][line:152][INFO] Epoch:[107/200]	 loss=370.43469	 acc=65.320
+[2024-09-16 00:30:22,806][main_train.py][line:155][INFO] Epoch:[107/200]	 Test acc=71.750
+
+[2024-09-16 00:30:25,576][main_train.py][line:167][INFO] Best Test acc=71.800
+[2024-09-16 00:31:49,387][main_train.py][line:152][INFO] Epoch:[108/200]	 loss=368.82614	 acc=65.678
+[2024-09-16 00:31:53,196][main_train.py][line:155][INFO] Epoch:[108/200]	 Test acc=70.840
+
+[2024-09-16 00:31:55,587][main_train.py][line:167][INFO] Best Test acc=71.800
+[2024-09-16 00:33:19,622][main_train.py][line:152][INFO] Epoch:[109/200]	 loss=364.88974	 acc=65.996
+[2024-09-16 00:33:23,455][main_train.py][line:155][INFO] Epoch:[109/200]	 Test acc=69.460
+
+[2024-09-16 00:33:26,661][main_train.py][line:167][INFO] Best Test acc=71.800
+[2024-09-16 00:34:50,584][main_train.py][line:152][INFO] Epoch:[110/200]	 loss=362.60224	 acc=66.050
+[2024-09-16 00:34:54,355][main_train.py][line:155][INFO] Epoch:[110/200]	 Test acc=71.240
+
+[2024-09-16 00:34:56,734][main_train.py][line:167][INFO] Best Test acc=71.800
+[2024-09-16 00:36:20,804][main_train.py][line:152][INFO] Epoch:[111/200]	 loss=361.74172	 acc=66.102
+[2024-09-16 00:36:24,586][main_train.py][line:155][INFO] Epoch:[111/200]	 Test acc=72.790
+
+[2024-09-16 00:36:29,793][main_train.py][line:167][INFO] Best Test acc=72.790
+[2024-09-16 00:37:53,520][main_train.py][line:152][INFO] Epoch:[112/200]	 loss=360.74645	 acc=66.322
+[2024-09-16 00:37:57,343][main_train.py][line:155][INFO] Epoch:[112/200]	 Test acc=71.450
+
+[2024-09-16 00:37:59,712][main_train.py][line:167][INFO] Best Test acc=72.790
+[2024-09-16 00:39:23,841][main_train.py][line:152][INFO] Epoch:[113/200]	 loss=356.98082	 acc=66.612
+[2024-09-16 00:39:27,744][main_train.py][line:155][INFO] Epoch:[113/200]	 Test acc=72.170
+
+[2024-09-16 00:39:30,124][main_train.py][line:167][INFO] Best Test acc=72.790
+[2024-09-16 00:40:54,166][main_train.py][line:152][INFO] Epoch:[114/200]	 loss=356.05703	 acc=66.750
+[2024-09-16 00:40:58,031][main_train.py][line:155][INFO] Epoch:[114/200]	 Test acc=70.740
+
+[2024-09-16 00:41:00,432][main_train.py][line:167][INFO] Best Test acc=72.790
+[2024-09-16 00:42:24,350][main_train.py][line:152][INFO] Epoch:[115/200]	 loss=350.98053	 acc=66.956
+[2024-09-16 00:42:28,182][main_train.py][line:155][INFO] Epoch:[115/200]	 Test acc=71.470
+
+[2024-09-16 00:42:30,743][main_train.py][line:167][INFO] Best Test acc=72.790
+[2024-09-16 00:43:54,672][main_train.py][line:152][INFO] Epoch:[116/200]	 loss=348.18787	 acc=67.220
+[2024-09-16 00:43:58,463][main_train.py][line:155][INFO] Epoch:[116/200]	 Test acc=71.940
+
+[2024-09-16 00:44:00,928][main_train.py][line:167][INFO] Best Test acc=72.790
+[2024-09-16 00:45:24,777][main_train.py][line:152][INFO] Epoch:[117/200]	 loss=347.07907	 acc=67.486
+[2024-09-16 00:45:28,615][main_train.py][line:155][INFO] Epoch:[117/200]	 Test acc=71.380
+
+[2024-09-16 00:45:31,011][main_train.py][line:167][INFO] Best Test acc=72.790
+[2024-09-16 00:46:54,992][main_train.py][line:152][INFO] Epoch:[118/200]	 loss=344.67515	 acc=67.696
+[2024-09-16 00:46:58,785][main_train.py][line:155][INFO] Epoch:[118/200]	 Test acc=73.140
+
+[2024-09-16 00:47:03,449][main_train.py][line:167][INFO] Best Test acc=73.140
+[2024-09-16 00:48:27,084][main_train.py][line:152][INFO] Epoch:[119/200]	 loss=342.28309	 acc=67.812
+[2024-09-16 00:48:30,898][main_train.py][line:155][INFO] Epoch:[119/200]	 Test acc=71.420
+
+[2024-09-16 00:48:33,266][main_train.py][line:167][INFO] Best Test acc=73.140
+[2024-09-16 00:49:57,092][main_train.py][line:152][INFO] Epoch:[120/200]	 loss=342.48065	 acc=67.710
+[2024-09-16 00:50:00,973][main_train.py][line:155][INFO] Epoch:[120/200]	 Test acc=72.180
+
+[2024-09-16 00:50:03,402][main_train.py][line:167][INFO] Best Test acc=73.140
+[2024-09-16 00:51:27,327][main_train.py][line:152][INFO] Epoch:[121/200]	 loss=340.31637	 acc=68.128
+[2024-09-16 00:51:31,123][main_train.py][line:155][INFO] Epoch:[121/200]	 Test acc=72.820
+
+[2024-09-16 00:51:33,440][main_train.py][line:167][INFO] Best Test acc=73.140
+[2024-09-16 00:52:57,428][main_train.py][line:152][INFO] Epoch:[122/200]	 loss=334.10108	 acc=68.378
+[2024-09-16 00:53:01,226][main_train.py][line:155][INFO] Epoch:[122/200]	 Test acc=72.960
+
+[2024-09-16 00:53:03,618][main_train.py][line:167][INFO] Best Test acc=73.140
+[2024-09-16 00:54:27,608][main_train.py][line:152][INFO] Epoch:[123/200]	 loss=333.52027	 acc=68.712
+[2024-09-16 00:54:31,409][main_train.py][line:155][INFO] Epoch:[123/200]	 Test acc=71.380
+
+[2024-09-16 00:54:33,740][main_train.py][line:167][INFO] Best Test acc=73.140
+[2024-09-16 00:55:57,512][main_train.py][line:152][INFO] Epoch:[124/200]	 loss=331.57924	 acc=68.718
+[2024-09-16 00:56:01,318][main_train.py][line:155][INFO] Epoch:[124/200]	 Test acc=73.570
+
+[2024-09-16 00:56:06,014][main_train.py][line:167][INFO] Best Test acc=73.570
+[2024-09-16 00:57:30,046][main_train.py][line:152][INFO] Epoch:[125/200]	 loss=325.49832	 acc=69.342
+[2024-09-16 00:57:33,859][main_train.py][line:155][INFO] Epoch:[125/200]	 Test acc=73.180
+
+[2024-09-16 00:57:36,219][main_train.py][line:167][INFO] Best Test acc=73.570
+[2024-09-16 00:59:00,210][main_train.py][line:152][INFO] Epoch:[126/200]	 loss=323.51022	 acc=69.782
+[2024-09-16 00:59:03,995][main_train.py][line:155][INFO] Epoch:[126/200]	 Test acc=73.120
+
+[2024-09-16 00:59:06,340][main_train.py][line:167][INFO] Best Test acc=73.570
+[2024-09-16 01:00:30,338][main_train.py][line:152][INFO] Epoch:[127/200]	 loss=321.00800	 acc=69.752
+[2024-09-16 01:00:34,215][main_train.py][line:155][INFO] Epoch:[127/200]	 Test acc=72.940
+
+[2024-09-16 01:00:36,629][main_train.py][line:167][INFO] Best Test acc=73.570
+[2024-09-16 01:02:00,470][main_train.py][line:152][INFO] Epoch:[128/200]	 loss=315.82234	 acc=70.350
+[2024-09-16 01:02:04,259][main_train.py][line:155][INFO] Epoch:[128/200]	 Test acc=73.440
+
+[2024-09-16 01:02:06,601][main_train.py][line:167][INFO] Best Test acc=73.570
+[2024-09-16 01:03:30,397][main_train.py][line:152][INFO] Epoch:[129/200]	 loss=315.58950	 acc=70.392
+[2024-09-16 01:03:34,186][main_train.py][line:155][INFO] Epoch:[129/200]	 Test acc=72.460
+
+[2024-09-16 01:03:36,533][main_train.py][line:167][INFO] Best Test acc=73.570
+[2024-09-16 01:05:00,507][main_train.py][line:152][INFO] Epoch:[130/200]	 loss=310.29348	 acc=70.530
+[2024-09-16 01:05:04,354][main_train.py][line:155][INFO] Epoch:[130/200]	 Test acc=72.600
+
+[2024-09-16 01:05:06,697][main_train.py][line:167][INFO] Best Test acc=73.570
+[2024-09-16 01:06:30,531][main_train.py][line:152][INFO] Epoch:[131/200]	 loss=309.05126	 acc=71.018
+[2024-09-16 01:06:34,342][main_train.py][line:155][INFO] Epoch:[131/200]	 Test acc=72.230
+
+[2024-09-16 01:06:36,606][main_train.py][line:167][INFO] Best Test acc=73.570
+[2024-09-16 01:08:00,573][main_train.py][line:152][INFO] Epoch:[132/200]	 loss=308.55455	 acc=70.804
+[2024-09-16 01:08:04,419][main_train.py][line:155][INFO] Epoch:[132/200]	 Test acc=71.870
+
+[2024-09-16 01:08:06,760][main_train.py][line:167][INFO] Best Test acc=73.570
+[2024-09-16 01:09:30,603][main_train.py][line:152][INFO] Epoch:[133/200]	 loss=302.34947	 acc=71.424
+[2024-09-16 01:09:34,415][main_train.py][line:155][INFO] Epoch:[133/200]	 Test acc=72.290
+
+[2024-09-16 01:09:36,747][main_train.py][line:167][INFO] Best Test acc=73.570
+[2024-09-16 01:11:00,663][main_train.py][line:152][INFO] Epoch:[134/200]	 loss=303.18469	 acc=71.426
+[2024-09-16 01:11:04,546][main_train.py][line:155][INFO] Epoch:[134/200]	 Test acc=72.380
+
+[2024-09-16 01:11:06,972][main_train.py][line:167][INFO] Best Test acc=73.570
+[2024-09-16 01:12:30,958][main_train.py][line:152][INFO] Epoch:[135/200]	 loss=298.90848	 acc=71.884
+[2024-09-16 01:12:34,789][main_train.py][line:155][INFO] Epoch:[135/200]	 Test acc=72.810
+
+[2024-09-16 01:12:37,173][main_train.py][line:167][INFO] Best Test acc=73.570
+[2024-09-16 01:14:01,014][main_train.py][line:152][INFO] Epoch:[136/200]	 loss=296.04848	 acc=71.762
+[2024-09-16 01:14:04,852][main_train.py][line:155][INFO] Epoch:[136/200]	 Test acc=72.910
+
+[2024-09-16 01:14:07,158][main_train.py][line:167][INFO] Best Test acc=73.570
+[2024-09-16 01:15:31,140][main_train.py][line:152][INFO] Epoch:[137/200]	 loss=290.94565	 acc=72.668
+[2024-09-16 01:15:34,986][main_train.py][line:155][INFO] Epoch:[137/200]	 Test acc=73.140
+
+[2024-09-16 01:15:37,371][main_train.py][line:167][INFO] Best Test acc=73.570
+[2024-09-16 01:17:01,308][main_train.py][line:152][INFO] Epoch:[138/200]	 loss=288.93451	 acc=72.818
+[2024-09-16 01:17:05,108][main_train.py][line:155][INFO] Epoch:[138/200]	 Test acc=73.600
+
+[2024-09-16 01:17:09,744][main_train.py][line:167][INFO] Best Test acc=73.600
+[2024-09-16 01:18:33,785][main_train.py][line:152][INFO] Epoch:[139/200]	 loss=286.25800	 acc=73.104
+[2024-09-16 01:18:37,593][main_train.py][line:155][INFO] Epoch:[139/200]	 Test acc=73.860
+
+[2024-09-16 01:18:42,233][main_train.py][line:167][INFO] Best Test acc=73.860
+[2024-09-16 01:20:06,013][main_train.py][line:152][INFO] Epoch:[140/200]	 loss=282.89481	 acc=73.282
+[2024-09-16 01:20:09,830][main_train.py][line:155][INFO] Epoch:[140/200]	 Test acc=73.690
+
+[2024-09-16 01:20:12,156][main_train.py][line:167][INFO] Best Test acc=73.860
+[2024-09-16 01:21:36,172][main_train.py][line:152][INFO] Epoch:[141/200]	 loss=278.95321	 acc=73.498
+[2024-09-16 01:21:40,028][main_train.py][line:155][INFO] Epoch:[141/200]	 Test acc=73.320
+
+[2024-09-16 01:21:42,532][main_train.py][line:167][INFO] Best Test acc=73.860
+[2024-09-16 01:23:06,619][main_train.py][line:152][INFO] Epoch:[142/200]	 loss=274.43658	 acc=74.056
+[2024-09-16 01:23:10,418][main_train.py][line:155][INFO] Epoch:[142/200]	 Test acc=73.890
+
+[2024-09-16 01:23:15,148][main_train.py][line:167][INFO] Best Test acc=73.890
+[2024-09-16 01:24:38,860][main_train.py][line:152][INFO] Epoch:[143/200]	 loss=270.13660	 acc=74.512
+[2024-09-16 01:24:42,637][main_train.py][line:155][INFO] Epoch:[143/200]	 Test acc=74.250
+
+[2024-09-16 01:24:47,315][main_train.py][line:167][INFO] Best Test acc=74.250
+[2024-09-16 01:26:11,276][main_train.py][line:152][INFO] Epoch:[144/200]	 loss=267.21491	 acc=74.678
+[2024-09-16 01:26:15,069][main_train.py][line:155][INFO] Epoch:[144/200]	 Test acc=72.990
+
+[2024-09-16 01:26:17,365][main_train.py][line:167][INFO] Best Test acc=74.250
+[2024-09-16 01:27:41,401][main_train.py][line:152][INFO] Epoch:[145/200]	 loss=266.38923	 acc=74.860
+[2024-09-16 01:27:45,235][main_train.py][line:155][INFO] Epoch:[145/200]	 Test acc=73.700
+
+[2024-09-16 01:27:47,613][main_train.py][line:167][INFO] Best Test acc=74.250
+[2024-09-16 01:29:11,805][main_train.py][line:152][INFO] Epoch:[146/200]	 loss=260.93634	 acc=75.318
+[2024-09-16 01:29:15,669][main_train.py][line:155][INFO] Epoch:[146/200]	 Test acc=74.470
+
+[2024-09-16 01:29:20,376][main_train.py][line:167][INFO] Best Test acc=74.470
+[2024-09-16 01:30:44,213][main_train.py][line:152][INFO] Epoch:[147/200]	 loss=257.82470	 acc=75.500
+[2024-09-16 01:30:48,015][main_train.py][line:155][INFO] Epoch:[147/200]	 Test acc=73.670
+
+[2024-09-16 01:30:50,326][main_train.py][line:167][INFO] Best Test acc=74.470
+[2024-09-16 01:32:14,246][main_train.py][line:152][INFO] Epoch:[148/200]	 loss=254.20808	 acc=75.794
+[2024-09-16 01:32:18,154][main_train.py][line:155][INFO] Epoch:[148/200]	 Test acc=74.380
+
+[2024-09-16 01:32:20,590][main_train.py][line:167][INFO] Best Test acc=74.470
+[2024-09-16 01:33:44,652][main_train.py][line:152][INFO] Epoch:[149/200]	 loss=248.67992	 acc=76.608
+[2024-09-16 01:33:48,454][main_train.py][line:155][INFO] Epoch:[149/200]	 Test acc=73.390
+
+[2024-09-16 01:33:50,816][main_train.py][line:167][INFO] Best Test acc=74.470
+[2024-09-16 01:35:14,697][main_train.py][line:152][INFO] Epoch:[150/200]	 loss=246.79757	 acc=76.568
+[2024-09-16 01:35:18,572][main_train.py][line:155][INFO] Epoch:[150/200]	 Test acc=75.130
+
+[2024-09-16 01:35:23,473][main_train.py][line:167][INFO] Best Test acc=75.130
+[2024-09-16 01:36:47,182][main_train.py][line:152][INFO] Epoch:[151/200]	 loss=242.40529	 acc=77.014
+[2024-09-16 01:36:50,984][main_train.py][line:155][INFO] Epoch:[151/200]	 Test acc=74.480
+
+[2024-09-16 01:36:53,476][main_train.py][line:167][INFO] Best Test acc=75.130
+[2024-09-16 01:38:16,290][main_train.py][line:152][INFO] Epoch:[152/200]	 loss=238.82721	 acc=77.366
+[2024-09-16 01:38:20,075][main_train.py][line:155][INFO] Epoch:[152/200]	 Test acc=75.080
+
+[2024-09-16 01:38:22,492][main_train.py][line:167][INFO] Best Test acc=75.130
+[2024-09-16 01:39:45,281][main_train.py][line:152][INFO] Epoch:[153/200]	 loss=235.84142	 acc=77.718
+[2024-09-16 01:39:49,032][main_train.py][line:155][INFO] Epoch:[153/200]	 Test acc=75.780
+
+[2024-09-16 01:39:53,798][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 01:41:16,413][main_train.py][line:152][INFO] Epoch:[154/200]	 loss=232.28584	 acc=78.000
+[2024-09-16 01:41:20,179][main_train.py][line:155][INFO] Epoch:[154/200]	 Test acc=73.950
+
+[2024-09-16 01:41:22,550][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 01:42:45,327][main_train.py][line:152][INFO] Epoch:[155/200]	 loss=226.23132	 acc=78.552
+[2024-09-16 01:42:49,135][main_train.py][line:155][INFO] Epoch:[155/200]	 Test acc=74.840
+
+[2024-09-16 01:42:51,617][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 01:44:14,408][main_train.py][line:152][INFO] Epoch:[156/200]	 loss=223.68191	 acc=78.728
+[2024-09-16 01:44:18,175][main_train.py][line:155][INFO] Epoch:[156/200]	 Test acc=74.800
+
+[2024-09-16 01:44:20,529][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 01:45:43,285][main_train.py][line:152][INFO] Epoch:[157/200]	 loss=220.28905	 acc=79.272
+[2024-09-16 01:45:47,034][main_train.py][line:155][INFO] Epoch:[157/200]	 Test acc=74.870
+
+[2024-09-16 01:45:49,423][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 01:47:12,362][main_train.py][line:152][INFO] Epoch:[158/200]	 loss=217.41590	 acc=79.556
+[2024-09-16 01:47:16,118][main_train.py][line:155][INFO] Epoch:[158/200]	 Test acc=74.680
+
+[2024-09-16 01:47:18,448][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 01:48:41,112][main_train.py][line:152][INFO] Epoch:[159/200]	 loss=210.71720	 acc=79.954
+[2024-09-16 01:48:44,882][main_train.py][line:155][INFO] Epoch:[159/200]	 Test acc=74.290
+
+[2024-09-16 01:48:47,249][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 01:50:10,107][main_train.py][line:152][INFO] Epoch:[160/200]	 loss=209.71745	 acc=80.226
+[2024-09-16 01:50:13,859][main_train.py][line:155][INFO] Epoch:[160/200]	 Test acc=75.340
+
+[2024-09-16 01:50:16,228][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 01:51:38,873][main_train.py][line:152][INFO] Epoch:[161/200]	 loss=205.80103	 acc=80.694
+[2024-09-16 01:51:42,610][main_train.py][line:155][INFO] Epoch:[161/200]	 Test acc=74.760
+
+[2024-09-16 01:51:44,983][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 01:53:07,657][main_train.py][line:152][INFO] Epoch:[162/200]	 loss=205.34022	 acc=80.492
+[2024-09-16 01:53:11,439][main_train.py][line:155][INFO] Epoch:[162/200]	 Test acc=74.990
+
+[2024-09-16 01:53:13,804][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 01:54:36,682][main_train.py][line:152][INFO] Epoch:[163/200]	 loss=201.07565	 acc=80.996
+[2024-09-16 01:54:40,423][main_train.py][line:155][INFO] Epoch:[163/200]	 Test acc=74.100
+
+[2024-09-16 01:54:42,764][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 01:56:05,365][main_train.py][line:152][INFO] Epoch:[164/200]	 loss=194.75263	 acc=81.406
+[2024-09-16 01:56:09,117][main_train.py][line:155][INFO] Epoch:[164/200]	 Test acc=75.120
+
+[2024-09-16 01:56:11,522][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 01:57:34,355][main_train.py][line:152][INFO] Epoch:[165/200]	 loss=193.35667	 acc=81.748
+[2024-09-16 01:57:38,117][main_train.py][line:155][INFO] Epoch:[165/200]	 Test acc=74.840
+
+[2024-09-16 01:57:40,484][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 01:59:03,144][main_train.py][line:152][INFO] Epoch:[166/200]	 loss=188.82003	 acc=82.084
+[2024-09-16 01:59:06,917][main_train.py][line:155][INFO] Epoch:[166/200]	 Test acc=75.510
+
+[2024-09-16 01:59:09,276][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 02:00:31,999][main_train.py][line:152][INFO] Epoch:[167/200]	 loss=186.07841	 acc=82.334
+[2024-09-16 02:00:35,803][main_train.py][line:155][INFO] Epoch:[167/200]	 Test acc=74.990
+
+[2024-09-16 02:00:38,378][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 02:02:00,974][main_train.py][line:152][INFO] Epoch:[168/200]	 loss=183.71278	 acc=82.658
+[2024-09-16 02:02:04,688][main_train.py][line:155][INFO] Epoch:[168/200]	 Test acc=74.850
+
+[2024-09-16 02:02:07,085][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 02:03:29,662][main_train.py][line:152][INFO] Epoch:[169/200]	 loss=178.94999	 acc=82.970
+[2024-09-16 02:03:33,415][main_train.py][line:155][INFO] Epoch:[169/200]	 Test acc=74.850
+
+[2024-09-16 02:03:35,801][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 02:04:58,608][main_train.py][line:152][INFO] Epoch:[170/200]	 loss=173.59052	 acc=83.546
+[2024-09-16 02:05:02,357][main_train.py][line:155][INFO] Epoch:[170/200]	 Test acc=75.130
+
+[2024-09-16 02:05:04,679][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 02:06:27,292][main_train.py][line:152][INFO] Epoch:[171/200]	 loss=171.01128	 acc=83.698
+[2024-09-16 02:06:31,065][main_train.py][line:155][INFO] Epoch:[171/200]	 Test acc=74.900
+
+[2024-09-16 02:06:33,405][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 02:07:56,173][main_train.py][line:152][INFO] Epoch:[172/200]	 loss=170.53743	 acc=83.816
+[2024-09-16 02:07:59,922][main_train.py][line:155][INFO] Epoch:[172/200]	 Test acc=75.040
+
+[2024-09-16 02:08:02,268][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 02:09:24,910][main_train.py][line:152][INFO] Epoch:[173/200]	 loss=167.23863	 acc=84.118
+[2024-09-16 02:09:28,654][main_train.py][line:155][INFO] Epoch:[173/200]	 Test acc=74.780
+
+[2024-09-16 02:09:30,984][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 02:10:53,752][main_train.py][line:152][INFO] Epoch:[174/200]	 loss=161.89460	 acc=84.750
+[2024-09-16 02:10:57,570][main_train.py][line:155][INFO] Epoch:[174/200]	 Test acc=74.390
+
+[2024-09-16 02:10:59,986][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 02:12:22,681][main_train.py][line:152][INFO] Epoch:[175/200]	 loss=159.75078	 acc=84.846
+[2024-09-16 02:12:26,453][main_train.py][line:155][INFO] Epoch:[175/200]	 Test acc=75.280
+
+[2024-09-16 02:12:28,809][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 02:13:51,398][main_train.py][line:152][INFO] Epoch:[176/200]	 loss=157.19031	 acc=85.098
+[2024-09-16 02:13:55,122][main_train.py][line:155][INFO] Epoch:[176/200]	 Test acc=75.000
+
+[2024-09-16 02:13:57,486][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 02:15:20,262][main_train.py][line:152][INFO] Epoch:[177/200]	 loss=152.66293	 acc=85.554
+[2024-09-16 02:15:24,006][main_train.py][line:155][INFO] Epoch:[177/200]	 Test acc=74.590
+
+[2024-09-16 02:15:26,339][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 02:16:49,009][main_train.py][line:152][INFO] Epoch:[178/200]	 loss=148.97557	 acc=85.908
+[2024-09-16 02:16:52,752][main_train.py][line:155][INFO] Epoch:[178/200]	 Test acc=74.950
+
+[2024-09-16 02:16:55,129][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 02:18:17,937][main_train.py][line:152][INFO] Epoch:[179/200]	 loss=146.16174	 acc=86.038
+[2024-09-16 02:18:21,722][main_train.py][line:155][INFO] Epoch:[179/200]	 Test acc=75.620
+
+[2024-09-16 02:18:24,095][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 02:19:46,748][main_train.py][line:152][INFO] Epoch:[180/200]	 loss=141.19541	 acc=86.656
+[2024-09-16 02:19:50,495][main_train.py][line:155][INFO] Epoch:[180/200]	 Test acc=74.750
+
+[2024-09-16 02:19:52,827][main_train.py][line:167][INFO] Best Test acc=75.780
+[2024-09-16 02:21:15,442][main_train.py][line:152][INFO] Epoch:[181/200]	 loss=139.88001	 acc=86.864
+[2024-09-16 02:21:19,181][main_train.py][line:155][INFO] Epoch:[181/200]	 Test acc=76.020
+
+[2024-09-16 02:21:23,805][main_train.py][line:167][INFO] Best Test acc=76.020
+[2024-09-16 02:22:46,764][main_train.py][line:152][INFO] Epoch:[182/200]	 loss=134.59586	 acc=87.270
+[2024-09-16 02:22:50,502][main_train.py][line:155][INFO] Epoch:[182/200]	 Test acc=74.750
+
+[2024-09-16 02:22:52,835][main_train.py][line:167][INFO] Best Test acc=76.020
+[2024-09-16 02:24:15,625][main_train.py][line:152][INFO] Epoch:[183/200]	 loss=130.64551	 acc=87.602
+[2024-09-16 02:24:19,377][main_train.py][line:155][INFO] Epoch:[183/200]	 Test acc=74.600
+
+[2024-09-16 02:24:21,663][main_train.py][line:167][INFO] Best Test acc=76.020
+[2024-09-16 02:25:44,534][main_train.py][line:152][INFO] Epoch:[184/200]	 loss=128.52936	 acc=87.906
+[2024-09-16 02:25:48,300][main_train.py][line:155][INFO] Epoch:[184/200]	 Test acc=75.570
+
+[2024-09-16 02:25:50,626][main_train.py][line:167][INFO] Best Test acc=76.020
+[2024-09-16 02:27:13,438][main_train.py][line:152][INFO] Epoch:[185/200]	 loss=123.99099	 acc=88.378
+[2024-09-16 02:27:17,154][main_train.py][line:155][INFO] Epoch:[185/200]	 Test acc=74.830
+
+[2024-09-16 02:27:19,507][main_train.py][line:167][INFO] Best Test acc=76.020
+[2024-09-16 02:28:42,427][main_train.py][line:152][INFO] Epoch:[186/200]	 loss=122.22894	 acc=88.352
+[2024-09-16 02:28:46,350][main_train.py][line:155][INFO] Epoch:[186/200]	 Test acc=75.730
+
+[2024-09-16 02:28:48,827][main_train.py][line:167][INFO] Best Test acc=76.020
+[2024-09-16 02:30:11,511][main_train.py][line:152][INFO] Epoch:[187/200]	 loss=117.68441	 acc=88.898
+[2024-09-16 02:30:15,245][main_train.py][line:155][INFO] Epoch:[187/200]	 Test acc=75.400
+
+[2024-09-16 02:30:17,605][main_train.py][line:167][INFO] Best Test acc=76.020
+[2024-09-16 02:31:40,296][main_train.py][line:152][INFO] Epoch:[188/200]	 loss=115.16916	 acc=89.108
+[2024-09-16 02:31:44,031][main_train.py][line:155][INFO] Epoch:[188/200]	 Test acc=75.370
+
+[2024-09-16 02:31:46,302][main_train.py][line:167][INFO] Best Test acc=76.020
+[2024-09-16 02:33:09,180][main_train.py][line:152][INFO] Epoch:[189/200]	 loss=113.79162	 acc=89.342
+[2024-09-16 02:33:12,948][main_train.py][line:155][INFO] Epoch:[189/200]	 Test acc=75.690
+
+[2024-09-16 02:33:15,265][main_train.py][line:167][INFO] Best Test acc=76.020
+[2024-09-16 02:34:38,045][main_train.py][line:152][INFO] Epoch:[190/200]	 loss=108.48145	 acc=89.824
+[2024-09-16 02:34:41,778][main_train.py][line:155][INFO] Epoch:[190/200]	 Test acc=75.320
+
+[2024-09-16 02:34:44,102][main_train.py][line:167][INFO] Best Test acc=76.020
+[2024-09-16 02:36:07,052][main_train.py][line:152][INFO] Epoch:[191/200]	 loss=108.51012	 acc=89.748
+[2024-09-16 02:36:10,837][main_train.py][line:155][INFO] Epoch:[191/200]	 Test acc=75.510
+
+[2024-09-16 02:36:13,208][main_train.py][line:167][INFO] Best Test acc=76.020
+[2024-09-16 02:37:35,934][main_train.py][line:152][INFO] Epoch:[192/200]	 loss=105.86590	 acc=90.032
+[2024-09-16 02:37:39,647][main_train.py][line:155][INFO] Epoch:[192/200]	 Test acc=75.240
+
+[2024-09-16 02:37:41,956][main_train.py][line:167][INFO] Best Test acc=76.020
+[2024-09-16 02:39:04,659][main_train.py][line:152][INFO] Epoch:[193/200]	 loss=102.42485	 acc=90.450
+[2024-09-16 02:39:08,487][main_train.py][line:155][INFO] Epoch:[193/200]	 Test acc=75.420
+
+[2024-09-16 02:39:10,926][main_train.py][line:167][INFO] Best Test acc=76.020
+[2024-09-16 02:40:33,764][main_train.py][line:152][INFO] Epoch:[194/200]	 loss=103.35506	 acc=90.442
+[2024-09-16 02:40:37,514][main_train.py][line:155][INFO] Epoch:[194/200]	 Test acc=75.580
+
+[2024-09-16 02:40:39,912][main_train.py][line:167][INFO] Best Test acc=76.020
+[2024-09-16 02:42:02,645][main_train.py][line:152][INFO] Epoch:[195/200]	 loss=100.95544	 acc=90.476
+[2024-09-16 02:42:06,410][main_train.py][line:155][INFO] Epoch:[195/200]	 Test acc=75.520
+
+[2024-09-16 02:42:08,718][main_train.py][line:167][INFO] Best Test acc=76.020
+[2024-09-16 02:43:31,614][main_train.py][line:152][INFO] Epoch:[196/200]	 loss=100.32384	 acc=90.554
+[2024-09-16 02:43:35,343][main_train.py][line:155][INFO] Epoch:[196/200]	 Test acc=75.860
+
+[2024-09-16 02:43:37,671][main_train.py][line:167][INFO] Best Test acc=76.020
+[2024-09-16 02:45:00,365][main_train.py][line:152][INFO] Epoch:[197/200]	 loss=100.56502	 acc=90.666
+[2024-09-16 02:45:04,118][main_train.py][line:155][INFO] Epoch:[197/200]	 Test acc=75.050
+
+[2024-09-16 02:45:06,463][main_train.py][line:167][INFO] Best Test acc=76.020
+[2024-09-16 02:46:29,460][main_train.py][line:152][INFO] Epoch:[198/200]	 loss=99.85356	 acc=90.728
+[2024-09-16 02:46:33,264][main_train.py][line:155][INFO] Epoch:[198/200]	 Test acc=75.220
+
+[2024-09-16 02:46:35,650][main_train.py][line:167][INFO] Best Test acc=76.020
+[2024-09-16 02:47:58,448][main_train.py][line:152][INFO] Epoch:[199/200]	 loss=96.81161	 acc=90.994
+[2024-09-16 02:48:02,163][main_train.py][line:155][INFO] Epoch:[199/200]	 Test acc=75.470
+
+[2024-09-16 02:48:04,515][main_train.py][line:167][INFO] Best Test acc=76.020
