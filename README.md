@@ -2,6 +2,7 @@
 Code corresponding to the paper (https://openreview.net/forum?id=qLh6Ufvnuc)
 
 **IMPROVING GENERALIZATION AND ROBUSTNESS IN SNNS THROUGH SIGNED RATE ENCODING AND SPARSE ENCODING ATTACKS**
+
 Bhaskar Mukhoty, Hilal AlQuabeh, Bin Gu
 
 
@@ -41,3 +42,6 @@ python main_train.py --dataset imagenet100 --signed --model sewresnet
 
 #### Testing
 The testing usage with hyper-parameters are supplied in run_test_{dataset}.sh
+
+#### Log Files
+Log files for models reported in paper can be found in logs directory.
